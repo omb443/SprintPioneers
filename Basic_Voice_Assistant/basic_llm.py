@@ -1,6 +1,3 @@
-!pip install google-generativeai
-
-
 import google.generativeai as genai
 import voice_text
 
@@ -9,8 +6,8 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
 
-context = voice_text.convert_speech_to_text()
+def get_respose(content):
 
-response = model.generate_content(context)
+    response = model.generate_content(content)
 
-print(response._result.candidates[0].content.parts[0].text)
+    return(response._result.candidates[0].content.parts[0].text)
