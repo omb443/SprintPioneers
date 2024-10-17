@@ -1,6 +1,6 @@
 import pyttsx3
 
-text_speech = pyttsx3.init()
-userInput = input("Give the text to speak: ")
-text_speech.say(userInput)
-text_speech.runAndWait()
+def to_speech(text):
+    text_speech = pyttsx3.init()
+    text_speech.say(text)
+    text_speech.runAndWait()
