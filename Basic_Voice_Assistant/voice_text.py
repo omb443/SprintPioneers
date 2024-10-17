@@ -25,5 +25,3 @@ def convert_speech_to_text():
         print("Could not request results from Google Speech Recognition service.")
         return "Could not request results from Google Speech Recognition service."
 
-
-convert_speech_to_text()
