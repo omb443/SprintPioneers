@@ -13,7 +13,7 @@ class TestConvertSpeechToText(unittest.TestCase):
     @patch('voice_text.sr.Recognizer')
     @patch('voice_text.sr.Microphone')
 
-    # This test checks for successful speech recognition
+    # test case for successful speech recognition
     def test_convert_speech_to_text_success(self, mock_microphone, mock_recognizer):
         mock_instance = mock_recognizer.return_value
         mock_audio = MagicMock()
@@ -42,7 +42,7 @@ class TestConvertSpeechToText(unittest.TestCase):
         mock_instance = mock_recognizer.return_value
         mock_audio = MagicMock()
         mock_instance.listen.return_value = mock_audio
-        # Simulate silence leading to an UnknownValueError
+     
         mock_instance.recognize_google.side_effect = sr.UnknownValueError()
 
         result = convert_speech_to_text()
@@ -51,7 +51,8 @@ class TestConvertSpeechToText(unittest.TestCase):
     @patch('voice_text.sr.Recognizer')
     @patch('voice_text.sr.Microphone')
 
-    # This test checks how the function handles a request error
+    
+    # test case to check function handing request error
     def test_convert_speech_to_text_request_error(self, mock_microphone, mock_recognizer):
         mock_instance = mock_recognizer.return_value
         mock_audio = MagicMock()
