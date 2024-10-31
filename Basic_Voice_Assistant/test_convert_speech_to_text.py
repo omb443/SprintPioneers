@@ -26,7 +26,7 @@ class TestConvertSpeechToText(unittest.TestCase):
     @patch('voice_text.sr.Recognizer')
     @patch('voice_text.sr.Microphone')
 
-    # This test checks the handling of unrecognized audio input
+    # to check the handling of unrecognized audio input
     def test_convert_speech_to_text_empty_audio(self, mock_microphone, mock_recognizer):
         mock_instance = mock_recognizer.return_value
         mock_audio = MagicMock()
