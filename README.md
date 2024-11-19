@@ -11,14 +11,9 @@ git clone https://github.com/omb443/SprintPioneers.git
 
 cd SprintPioneers
 
-### 2.Install Packages Individually
-You can also install each required library manually using:
+### 2.Install Packages
 
-pip install google-generativeai
-
-pip install SpeechRecognition
-
-pip install pyttsx3
+pip install -r requirements.txt
 
 ### 3.Run the Application
 To start the assistant, execute:
