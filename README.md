@@ -11,11 +11,15 @@ git clone https://github.com/omb443/SprintPioneers.git
 
 cd SprintPioneers
 
-### 2.Install Packages
+### 2.Open Basic_Voice_Assistant
+
+Open folder in command line
+
+### 3.Install Packages
 
 pip install -r requirements.txt
 
-### 3.Run the Application
+### 4.Run the Application
 To start the assistant, execute:
 
 python main.py
