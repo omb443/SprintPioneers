@@ -1,7 +1,8 @@
 import google.generativeai as genai
 import voice_text
 
-GOOGLE_API_KEY= 'AIzaSyC7-H1L5u7YCAYUYiRaCA6rCheATuu2JoI'
+#  Put your own key here
+GOOGLE_API_KEY= '' 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')

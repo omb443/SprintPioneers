@@ -7,6 +7,7 @@
 To configure the project, follow these steps:
 
 ### 1.Clone the Repository
+
 git clone https://github.com/omb443/SprintPioneers.git
 
 cd SprintPioneers
@@ -15,11 +16,15 @@ cd SprintPioneers
 
 Open folder in command line
 
-### 3.Install Packages
+### 3.Gemini key update
+
+Create gemini key from (https://ai.google.dev/gemini-api/docs/api-key). Using own keys is necessary. Replace it with the key inside SprintPioneers/Basic_Voice_Assistance/basic_llm.py.
+
+### 4.Install Packages
 
 pip install -r requirements.txt
 
-### 4.Run the Application
+### 5.Run the Application
 To start the assistant, execute:
 
 python main.py
