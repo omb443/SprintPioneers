@@ -29,6 +29,10 @@ To start the assistant, execute:
 
 python main.py
 
+### 6.Run the IOS application in Xcode with iphone attached with macbook
+
+Run the code, give the required permission. It takes voice as well as text as input and gives responce in text as well as speech.
+
 ### Recommended Python Version
 This project is developed and tested with Python 3.8 or higher. Ensure you have the correct version installed.
 

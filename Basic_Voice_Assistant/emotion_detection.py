@@ -4,7 +4,6 @@ import numpy as np
 import os
 import sys
 
-# librosa is a Python library for analyzing audio and music. It can be used to extract the data from the audio files we will see it later.
 import librosa
 import librosa.display
 import seaborn as sns
@@ -14,7 +13,6 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.model_selection import train_test_split
 
-# to play the audio files
 from IPython.display import Audio
 
 import joblib

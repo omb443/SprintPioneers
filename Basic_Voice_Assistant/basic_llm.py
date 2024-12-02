@@ -8,6 +8,6 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
 
-def get_response(content):  # Corrected function name
+def get_response(content):  
     response = model.generate_content(content)
     return response._result.candidates[0].content.parts[0].text
