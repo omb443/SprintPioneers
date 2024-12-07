@@ -22,12 +22,26 @@ Create gemini key from (https://ai.google.dev/gemini-api/docs/api-key). Using ow
 
 ### 4.Install Packages
 
-pip install -r requirements.txt
+Install Expo CLI globally using npm:
+npm install -g expo-cli
+
+Install the React Native CLI globally:
+npm install -g react-native-cli
+
+
+Install Expo-related dependencies
+expo install expo-av expo-speech
+
+Install Axios
+npm install axios
+
 
 ### 5.Run the Application
-To start the assistant, execute:
+To run the dev server
+python App.py
 
-python main.py
+To run the app
+npx expo start
 
 ### 6.Run the IOS application in Xcode with iphone attached with macbook
 
