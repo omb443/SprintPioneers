@@ -1,0 +1,37 @@
+{
+  "name": "demo",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-react-native": "^1.0.0",
+    "axios": "^1.7.9",
+    "expo": "~52.0.11",
+    "expo-asset": "~11.0.1",
+    "expo-av": "~15.0.1",
+    "expo-gl": "^13.6.0",
+    "expo-image-picker": "~16.0.3",
+    "expo-speech": "~13.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-audio-recorder-player": "^3.6.12",
+    "react-native-fs": "^2.20.0",
+    "react-native-tflite": "^0.0.2",
+    "react-native-tts": "^4.1.1",
+    "react-native-voice": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "^16.0.0"
+  },
+  "private": true
+}
